@@ -6,8 +6,6 @@ const CategorySchema = mongoose.Schema({
         required: true
     }
 });
-
-
 const category = mongoose.model('category', CategorySchema);
 
 export default category;
